@@ -1,0 +1,118 @@
+body, html {
+background-color:#1D0B26; 
+color:#4D495E;
+text-align:center;
+font-size:100%;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+height:100%;
+margin:0;
+}
+
+h1{
+margin:0;
+padding: auto;
+}
+
+li {
+display:block;
+}
+h2{
+	background-color: #4D495E;
+	color:#F5F1ED;
+	
+	margin:2px;
+}
+h2:hover{
+	color:#F50039; 
+	text-decoration:none;
+}
+
+#wrapper {
+width: 1024px;
+float:center;
+margin:auto;
+background-color:#BACDD6;
+height: 100%;
+}
+
+#header{
+color:#000000;
+height: 10%;
+
+
+}
+
+
+
+#leftContainer {
+
+float:left;
+width:25%;
+height: 90%;
+overflow: hidden;
+}
+
+#leftContainer table{
+	width:100%;
+	
+}
+
+
+
+th{
+	text-align: left;
+	background-color: #4D495E;
+	color:#F5F1ED;
+}
+td{
+	text-align: right;
+
+}
+
+
+#rightContainer {
+
+width:75%;
+float:right;
+overflow:auto;
+height: 90%;
+}
+
+#rightContainer th, #rightContainer td{
+	background-color:#BACDD6;
+	color:#781F34;
+	text-align: right;
+}
+
+#rightContainer td{
+	color:#4D495E;
+	text-align: left;
+}
+
+.center
+{
+	padding: auto;
+margin:auto;
+
+
+}
+
+
+em {
+	color:#80A1AB;
+}
+
+strong{
+	color: #781F34;
+}
+hr {
+
+	border:1px solid #80A1AB;
+
+}
+
+
+a:link { color:#F50039;text-decoration:none;}
+a:visited { color:#F50039;text-decoration:none;}
+a:hover {color:#F50039; text-decoration:underline;}
+a:active {color:#F50039; text-decoration:underline;}
