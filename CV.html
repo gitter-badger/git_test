@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CV</title>
+<script src="jquery-1.10.2.min.js">
+</script>
+<link rel="stylesheet" type="text/css" href="CV.css">
+
+<script>
+$(document).ready(function(){
+  $("#EstudiosTitle").click(function(){
+    $("#Estudios").fadeToggle("fast",function(){
+    	 if($("#Estudios").is(":visible")){	
+    	 	$("#EstudiosTitle").html("Estudios");
+    	 }else{
+    	 	$("#EstudiosTitle").html("Estudios<em>+</em>");
+    	 }
+    });
+  });
+
+  $("#ProgramacionTitle").click(function(){
+  	$("#Programacion").fadeToggle("fast",function(){
+    	 if($("#Programacion").is(":visible")){	
+    	 	$("#ProgramacionTitle").html("Programaci&oacute;n");
+    	 }else{
+    	 	$("#ProgramacionTitle").html("Programaci&oacute;n<em>+</em>");
+    	 }
+    });
+  });
+  $("#InformacionTitle").click(function(){
+  	$("#Informacion").fadeToggle("fast",function(){
+    	 if($("#Informacion").is(":visible")){	
+    	 	$("#InformacionTitle").html("Informaci&oacuten Adicional");
+    	 }else{
+    	 	$("#InformacionTitle").html("Informaci&oacuten Adicional<em>+</em>");
+    	 }
+    });
+  });
+});
+</script>
+
+</head>
+
+
+<body>
+<div id="wrapper">
+	<div id="header">
+		<h1>Lorenzo Maier&uacute;<em>;</em></h1>
+	</div>
+	<div id="leftContainer">
+		<table>
+  			<tr>
+    			<th><em> .</em>Fecha de Nacimiento</th>
+  			</tr>
+  			<tr>
+    			<td>20 de Agosto de 1993</br></br></td>
+  			</tr>
+  			<tr>
+    			<th><em> .</em>DNI</th>
+  			</tr>
+  			<tr>
+    			<td>37.867.500</br></br></td>
+  			</tr>
+ 			 <tr>
+    			<th><em> .</em>Nacionalidad</th>
+  			</tr>
+  			<tr>
+    			<td>Argentina</br></br></td>
+  			</tr>
+  			<tr>
+    			<th><em> .</em>Localidad</th>
+  			</tr>
+  			<tr>
+    			<td>Mar del Plata</br></br></td>
+  			</tr>
+  			<tr>
+    			<th><em> .</em>Domicilio</th>
+  			</tr>
+  			<tr>
+    			<td>Sagastizabal 7431</br></br></td>
+  			</tr>
+  			<tr>
+    			<th><em> .</em>Tel&eacute;fonos</th>
+  			</tr>
+  			<tr>
+    			<td>(223) 156-047130 / 479-9823</br></br></td>
+  			</tr>
+  			<tr>
+  				<th><em> .</em>E-mail</th>
+  			</tr>	
+  			<tr>
+  				<td><a href="mailto:lorenzomaieru93@gmail.com">lorenzomaieru93@gmail.com</a></br></br></td>
+  			</tr>
+		</table>
+	</div>
+	<div id="rightContainer">
+		<h2 id="EstudiosTitle">Estudios</h2>
+		<div id="Estudios">
+		<h3>T&iacute;tulos Secundarios</h3>
+		<table border="0" class="center">
+			<tr>
+				
+				<th>2009 - 2011</th>
+				<td>T&eacute;cnico Inform&aacute;tico Particular y Profesional
+				</td>
+			</tr>
+			<tr>
+				
+				<th>2009 - 2011</th>
+				<td>Bachiller Modalidad Econom&iacute;a y Gesti&oacute;n de las Organizaciones</td>
+			</tr>
+		</table>
+
+		<h3>Terciario en Curso</h3>
+		<table border="0" class="center">
+			<tr>
+				
+				<th>2012 - 2013+</th>
+				<td>Tecnicatura Superior en An&aacute;lisis de Sistemas</td>
+			</tr>
+		</table>
+		</br>
+		</div>
+		
+		<h2 id="ProgramacionTitle">Programaci&oacute;n</h2>
+		<div id="Programacion">
+			</br>
+		<table border="0" class="center">
+			<tr>
+				<th>Lenguajes</th>
+				<td>C / C++</td>
+			</tr>
+			<tr>
+				<th></th>
+				<td>HTML + CSS</td>
+			</tr>
+			<tr>
+				<th></th>
+				<td>PHP</td>
+			</tr>
+			<tr>
+				<th></th>
+				<td>JavaScript</td>
+			</tr>
+			
+			<tr>
+				<th>Librer&iacute;as</th>
+				<td>SDL y derivados</td>
+			</tr>
+			<tr>
+				<th></th>
+				<td>JQuery</td>
+			</tr>
+		</table>
+		</br>
+		</div>
+		
+		<h2 id="InformacionTitle">Informaci&oacute;n Adicional</h2>
+		<div id="Informacion">
+			</br>
+		<p><strong>Durante el 2010 y 2011,</strong> particip&eacute; en la <a href="http://www.oia.org.ar/">Olimp&iacute;ada Inform&aacute;tica Argentina</a> en el &aacute;rea de programaci&oacute;n junto con dos de mis compa&ntilde;eros, en la secundaria.</p>
+		</br>
+		<hr>
+		<p><strong>A fines del 2011,</strong> como proyecto final de programaci&oacute;n para la tecnicatura, desarrollamos un juego en C++. </br>
+		Ac&aacute; pod&eacute;s ver un video del resultado:</p>
+		
+		<video width="512" height="288" controls>
+  		<source src="Game01.ogg" type="video/ogg">
+  		Your browser does not support the video tag.
+		</video>
+		
+		<em></br>//Juego de supervivencia con contenido generado aleatoriamente</em>
+		</br></br>
+		<hr>
+
+		<p><strong>En Agosto de 2013,</strong> decid&iacute; realizar un framework para la creaci&oacute;n de Videojuegos como proyecto personal, desarroll&aacute;ndolo en mi tiempo libre, y junto con &eacute;ste un juego que permitiera probar el framework. </br>
+		Para esto, utilizo una serie de librer&iacute;as multimedia para C++ llamadas SDL. </br>
+		A la fecha, el proyecto sigue en desarrollo. </br>
+		A continuaci&oacute;n, un video del juego en desarrollo, demostrando algunas de las caracter&iacute;sticas del framework:
+		</p>
+		
+		<video width="512" height="288" controls>
+  		<source src="Game02.ogg" type="video/ogg">
+  		Your browser does not support the video tag.
+		</video>
+
+		<em></br>//Juego de combate multijugador local</em>
+		</br></br>
+		<hr>
+		</div>
+		</div>
+</div>
+</body>
+</html>
